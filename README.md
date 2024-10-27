@@ -3,6 +3,7 @@
 
 ## Description
 
+Hello world! I'm Claudio Martin and here i present you a template that can help developing for newcomers.
 This project provides a well-structured Node.js backend template employing Express and JSON Web Tokens (JWT) for authentication. It offers a solid foundation for building secure and scalable RESTful APIs.
 
 ## Features
