@@ -11,7 +11,8 @@
     "dev": "vitest --watch",
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
-    "postinstall": "node  /node_modules/backend-template-martinherranzc/copy-structure.js"
+    "install": "npm install && npm run copy",
+    "copy": "node /node_modules/backend-template-martinherranzc/copy-structure.js"
   },
   "keywords": [
     "template",
