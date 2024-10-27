@@ -3,15 +3,17 @@
 
 ## Description
 
-Hello world! I'm Claudio Martin and here i present you a template that can help developing for newcomers.
+Hello world! I'm ``Claudio Martin Herranz`` and here i present you a template that can help developing for newcomers. It's my first package so i would love comments and suggestions.
 This project provides a well-structured Node.js backend template employing Express and JSON Web Tokens (JWT) for authentication. It offers a solid foundation for building secure and scalable RESTful APIs.
 
 ## Features
 
 - **Express Framework**: Utilizes Express for efficient routing, middleware handling, and server management.
 - **JWT Authentication**: Implements JWT for secure user authentication and authorization.
+- **Hexagonal Architecture**: Implements hexagonal architecture to promote separation of concerns and enhance testability.
 - **Modular Structure**: Encourages organized code with potential separation for controllers, models, and services (depending on project complexity).
 - **Testing**: Supports unit testing with Vitest (or your preferred testing framework).
+- **Swagger**: Documents your API.
 
 ## Getting Started
 
@@ -24,20 +26,17 @@ This project provides a well-structured Node.js backend template employing Expre
   npm -v  # or yarn -v
   ```
 
-### Clone the Repository
+### Installation
+
+To install the package, use the following command:
 
 ```bash
-git clone https://github.com/your-username/backend-template-martinherranzc.git
+npm install backend-template-martinherranzc
 ```
 
-### Install Dependencies
+### Usage
 
-Navigate to the project directory and install the dependencies:
-
-```bash
-cd backend-template-martinherranzc
-npm install  # or yarn install
-```
+Once installed, you can start using the backend template in your project. Configure your application as needed, following the structure and features provided in this template.
 
 ### Environment Variables
 
