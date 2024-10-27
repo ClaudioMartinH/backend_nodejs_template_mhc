@@ -16,9 +16,8 @@ async function copyFiles() {
       console.error(`El directorio de origen no existe: ${sourceDir}`);
       return;
     }
-    await copy(sourceDir, destDir, {
-      filter: (file) => !file.includes("node_modules"),
-    });
+
+    await copy(sourceDir, destDir);
     console.log("Estructura copiada exitosamente!");
   } catch (err) {
     console.error("Error al copiar la estructura:", err);
