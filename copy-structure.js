@@ -11,10 +11,17 @@ const sourceDir = join(
   "node_modules",
   "backend-template-martinherranzc"
 );
+
 const destDir = join(__dirname);
 
 async function copyFiles() {
   try {
+    const exists = await fs.exists(sourceDir);
+    if (!exists) {
+      console.error(`El directorio de origen no existe: ${sourceDir}`);
+      return;
+    }
+
     await copy(sourceDir, destDir, {
       filter: (file) => {
         return !file.includes("node_modules");
