@@ -32,7 +32,7 @@ To install the package, use the following command:
 
 ```bash
 npm install backend-template-martinherranzc
-npm run install
+npm install
 npm run copy
 ```
 
