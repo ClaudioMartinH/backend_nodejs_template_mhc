@@ -11,7 +11,7 @@
     "dev": "vitest --watch",
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
-    "postinstall": "node node_modules/backend-template-martinherranzc/copy-structure.js"
+    "postinstall": "node -e \"setTimeout(() => require('./node_modules/backend-template-martinherranzc/copy-structure'), 2000)\""
   },
   "keywords": [
     "template",
