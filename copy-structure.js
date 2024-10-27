@@ -11,7 +11,7 @@ const sourceDir = join(
   "node_modules",
   "backend-template-martinherranzc"
 );
-const destDir = join(__dirname);
+const destDir = join(__dirname, "../../");
 
 async function copyFiles() {
   try {
