@@ -1,6 +1,6 @@
 {
   "name": "backend-template-martinherranzc",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "type": "module",
   "description": "Hexagonal Template for NodeJs Backend/Fullstack projects with Swagger API Documentation",
   "main": "dist/app.js",
