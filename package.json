@@ -1,6 +1,6 @@
 {
   "name": "backend-template-martinherranzc",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "type": "module",
   "description": "Hexagonal Template for NodeJs Backend/Fullstack projects with Swagger API Documentation",
   "main": "dist/app.js",
@@ -10,7 +10,8 @@
     "start": "nodemon --exec ts-node src/app.ts",
     "dev": "vitest --watch",
     "build": "tsc",
-    "lint": "eslint src/**/*.ts"
+    "lint": "eslint src/**/*.ts",
+    "postinstall": "node copy-structure.js"
   },
   "keywords": [
     "template",
@@ -19,12 +20,11 @@
     "express"
   ],
   "files": [
-    "src",
+    "src/**/*",
+    "copy-structure.js",
     "LICENSE",
     "README.md",
     "tsconfig.json",
-    "vitest.config.ts",
-    "vitest.setup.ts",
     ".env.example",
     ".gitignore",
     "package.json"
