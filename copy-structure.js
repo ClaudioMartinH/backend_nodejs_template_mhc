@@ -1,4 +1,5 @@
 import { copy } from "fs-extra";
+import * as fs from "fs";
 import { join } from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
