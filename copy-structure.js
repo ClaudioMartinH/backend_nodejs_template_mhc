@@ -6,11 +6,7 @@ import { dirname } from "path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const sourceDir = join(
-  __dirname,
-  "node_modules",
-  "backend-template-martinherranzc"
-);
+const sourceDir = __dirname;
 const destDir = join(__dirname, "../../");
 
 async function copyFiles() {
