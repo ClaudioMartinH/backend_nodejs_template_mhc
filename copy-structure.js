@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const sourceDir = __dirname;
-const destDir = join(__dirname, "../copy");
+const destDir = join(__dirname, "/copy");
 
 async function copyFiles() {
   try {
