@@ -11,8 +11,8 @@
     "dev": "vitest --watch",
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
-    "prepare": "node node_modules/backend-template-martinherranzc/copy-structure.js",
-    "postinstall": "node node_modules/backend-template-martinherranzc/copy-structure.js"
+    "prepare": "node ./copy-structure.js",
+    "postinstall": "node -e \"const fs = require('fs-extra'); fs.copyFileSync('./copy-structure.js', './node_modules/backend-template-martinherranzc/copy-structure.js')\""
   },
   "keywords": [
     "template",
