@@ -32,8 +32,8 @@ To install the package, use the following command:
 
 ```bash
 npm install backend-template-martinherranzc
+node node_modules/backend-template-martinherranzc/copy-structure.js
 npm install
-npm run copy
 ```
 
 ### Usage
